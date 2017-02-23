@@ -6,7 +6,7 @@ layout: best-practices
 
 <h2 id="introduction">Introduction</h2>
 
-These are recommended practices for describing public transportation services in the [General Transit Feed Specification (GTFS)](https://gtfs.org). These practices have been synthesized from the experience of the [GTFS Best Practices working group](#working-group) members and [application-specific GTFS practice recommendations](http://www.transitwiki.org/TransitWiki/index.php/Best_practices_for_creating_GTFS).
+These are recommended practices for describing public transportation services in the [General Transit Feed Specification (GTFS)](https://gtfs.org). These practices have been synthesized from the experience of the [GTFS Best Practices working group](#working-group) members and [application-specific GTFS practice recommendations](http://www.transitwiki.org/TransitWiki/index.php/Best_practices_for_creating_GTFS). For further background, see the [FAQ](faq).
 
 ### Document Structure
 
@@ -1214,7 +1214,7 @@ Please link here in order to provide feed producers with guidance for correct fo
 
 <h3 id="amend">How to propose or amend published GTFS Best Practices</h3>
 
-GTFS applications and practice evolve, and so this document may need to be amended from time to time. To propose an amendment to this document, open a pull request in GitHub and advocate for the change. The GTFS Best Practices Working Group will meet quarterly to discuss and approve selected changes.
+GTFS applications and practice evolve, and so this document may need to be amended from time to time. To propose an amendment to this document, open a pull request [in the GTFS Best Practices GitHub repository](https://github.com/rocky-mountain-institute/gtfs-best-practices) and advocate for the change. The GTFS Best Practices Working Group will meet quarterly to discuss and approve selected changes.
 
 <h2 id="working-group">GTFS Best Practices Working Group</h2>
 
@@ -1239,7 +1239,7 @@ Members of this working group include:
 * [TriMet](https://trimet.org/)
 * [World Bank](http://www.worldbank.org/)
 
-To join the working group, email [gtfs-wg@rmi.org](mailto:gtfs-wg@rmi.org).
+To join the working group, email [gtfs@rmi.org](mailto:gtfs@rmi.org).
 
 <figure>
   <img id="rmi-logo" src="/best-practices/images/rmi.png" alt="The Rocky Mountain Institute logo">
