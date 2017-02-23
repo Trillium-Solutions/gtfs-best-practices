@@ -6,7 +6,17 @@ layout: best-practices
 
 <h2 id="introduction">Introduction</h2>
 
+<<<<<<< HEAD
 These are recommended practices for describing public transportation services in the [General Transit Feed Specification (GTFS)](https://gtfs.org). These practices have been synthesized from the experience of the [GTFS Best Practices working group](#working-group) members and [application-specific GTFS practice recommendations](http://www.transitwiki.org/TransitWiki/index.php/Best_practices_for_creating_GTFS). For further background, see the [FAQ](faq).
+=======
+These are recommended practices for describing public transportation services in the [General Transit Feed Specification (GTFS)](https://gtfs.org). These practices have been synthesized from the experience of the [GTFS Best Practices working group](#working-group) members and [application-specific GTFS practice recommendations](http://www.transitwiki.org/TransitWiki/index.php/Best_practices_for_creating_GTFS).
+
+### Linking to This Document
+
+Please link here in order to provide feed producers with guidance for correct formation of GTFS data. Each individual recommendation has an anchor link. Click the recommendation to get the URL for the in-page anchor link.
+
+If your GTFS-consuming application involves particular requirements or recommendations for GTFS data practices, it is recommended to publish a document with those requirements or recommendations to supplement these common best practices.
+>>>>>>> rocky-mountain-institute/master
 
 ### Document Structure
 
@@ -1182,7 +1192,11 @@ Some routes may include branches. Alignment and stops are shared amongst these b
       <td>1A</td>
       <td>If timetables and on-street signage represent two distinctly named routes (e.g. 1A and 1B), then present this as such in the GTFS, using the <code>route_short_name</code> and/or <code>route_long_name</code> fields. <!-- (97A) -->
 
+<<<<<<< HEAD
       Example: <a href="branch-example-godurham">GoDurham Transit routes 2, 2A, and 2B</a> demonstrate branched routes with deviations and extensions.
+=======
+      Example: <a href="{{ "/branch-example-godurham" | prepend: site.baseurl }}">GoDurham Transit routes 2, 2A, and 2B</a> demonstrate branched routes with deviations and extensions.
+>>>>>>> rocky-mountain-institute/master
 
       </td>
     </tr>
@@ -1208,6 +1222,7 @@ The objectives of maintaining GTFS Best Practices is to:
 * Make it easier for software developers to deploy and scale applications, products, and services
 * Facilitate the use of GTFS in various application categories (beyond its original focus on trip planning)
 
+<<<<<<< HEAD
 <h3 id="linking">Linking to This Document</h3>
 
 Please link here in order to provide feed producers with guidance for correct formation of GTFS data. If your GTFS-consuming application involves particular requirements or recommendations for GTFS data practices, it is recommended to publish a document with those requirements or recommendations to supplement these common best practices.
@@ -1219,6 +1234,15 @@ GTFS applications and practice evolve, and so this document may need to be amend
 <h2 id="working-group">GTFS Best Practices Working Group</h2>
 
 The GTFS Best Practices Working Group consists of public transportation providers, developers of GTFS-consuming applications, consultants, and academic organizations to define common practices and expectations for GTFS data. The goals of this working group are to support greater interoperability of data data.
+=======
+<h3 id="amend">How to propose or amend published GTFS Best Practices</h3>
+
+GTFS applications and practice evolve, and so this document may need to be amended from time to time. To propose an amendment to this document, open a pull request [in the GTFS Best Practices GitHub repository](https://github.com/rocky-mountain-institute/gtfs-best-practices) and advocate for the change. The GTFS Best Practices Working Group will meet quarterly to discuss and approve selected changes. Please send other questions or suggestions to [gtfs@rmi.org](mailto:gtfs@rmi.org).
+
+<h2 id="working-group">GTFS Best Practices Working Group</h2>
+
+The GTFS Best Practices Working Group consists of public transportation providers, developers of GTFS-consuming applications, consultants, and academic organizations to define common practices and expectations for GTFS data. The goals of this working group are to support greater interoperability of data data. To join the working group, email [gtfs@rmi.org](mailto:gtfs@rmi.org).
+>>>>>>> rocky-mountain-institute/master
 
 Members of this working group include:
 
@@ -1239,9 +1263,15 @@ Members of this working group include:
 * [TriMet](https://trimet.org/)
 * [World Bank](http://www.worldbank.org/)
 
+<<<<<<< HEAD
 To join the working group, email [gtfs@rmi.org](mailto:gtfs@rmi.org).
 
 <figure>
   <img id="rmi-logo" src="/best-practices/images/rmi.png" alt="The Rocky Mountain Institute logo">
   <figcaption>The GTFS Best Practices Working Group is convened and facilitated by <a href="http://www.rmi.org/ITD">Rocky Mountain Institute</a>, a nonprofit organization transforming global energy use to create a clean, prosperous, and secure low-carbon future.</figcaption>
+=======
+<figure>
+  <a href="http://www.rmi.org/mobility"><img id="rmi-logo" src="/best-practices/images/rmi-small.png" alt="The Rocky Mountain Institute Mobility Transformation" width="240" height="63" border="0" style="height:63px;width:240px;"></a>
+  <figcaption>The GTFS Best Practices Working Group is convened and facilitated by <a href="http://rmi.org/ITD">Rocky Mountain Institute</a> (RMI)—an independent nonprofit founded in 1982—transforms global energy use to create a clean, prosperous, and secure low-carbon future. It engages businesses, communities, institutions, and entrepreneurs to accelerate the adoption of market-based solutions that cost-effectively shift from fossil fuels to efficiency and renewables. RMI has offices in Basalt and Boulder, Colorado; New York City; Washington, D.C.; and Beijing.</figcaption>
+>>>>>>> rocky-mountain-institute/master
 </figure>
